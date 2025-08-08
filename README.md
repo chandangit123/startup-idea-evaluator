@@ -1,50 +1,42 @@
-# Welcome to your Expo app 👋
+# 🚀 Startup Idea Evaluator – AI + Voting App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A fun mobile app where users can submit their startup ideas, get a **fake AI-generated rating**, upvote others' ideas, and view the **leaderboard of top ideas**.
 
-## Get started
+Built with **React Native (Expo)** and **AsyncStorage** for persistent storage.
 
-1. Install dependencies
+---
 
+## 📱 Features
+- **Submit Ideas** with:
+  - Startup Name
+  - Tagline
+  - Description
+  - Fake AI rating (0–100)
+- **View All Ideas** with:
+  - Ratings, votes, descriptions
+  - "Read more" expand/collapse
+  - **Sort by votes** or **rating**
+  - Share idea via system share / clipboard
+- **Vote on Ideas** – one vote per idea (persisted across sessions)
+- **Leaderboard** – top 5 ideas with 🥇🥈🥉 badges
+- **Dark Mode Toggle** – persistent theme preference
+- **Persistent Storage** using `AsyncStorage`
+
+---
+
+## 🛠 Tech Stack
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [React Navigation](https://reactnavigation.org/)
+- [React Native Paper](https://callstack.github.io/react-native-paper/)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)
+- [Expo Clipboard](https://docs.expo.dev/versions/latest/sdk/clipboard/)
+- [Expo Sharing](https://docs.expo.dev/versions/latest/sdk/sharing/)
+
+---
+
+## 🚀 How to Run Locally
+1. Clone the repo:
    ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+   git clone https://github.com/yourusername/startup-idea-evaluator.git
+   cd startup-idea-evaluator
