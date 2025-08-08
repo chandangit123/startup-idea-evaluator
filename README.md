@@ -40,3 +40,10 @@ Built with **React Native (Expo)** and **AsyncStorage** for persistent storage.
    ```bash
    git clone https://github.com/yourusername/startup-idea-evaluator.git
    cd startup-idea-evaluator
+
+
+expo links :  iOS fingerprint:  ef74c83bc18addc0ed1b1cf3bd4c4815fcc627ce
+    URL            :  https://expo.dev/accounts/chandanexpohub/projects/startup-idea-evaluator/fingerprints/ef74c83bc18addc0ed1b1cf3bd4c4815fcc627ce
+
+    Android fingerprint:  e79684c56ace288fd029517e9d272d42674a538b
+    URL                :  https://expo.dev/accounts/chandanexpohub/projects/startup-idea-evaluator/fingerprints/e79684c56ace288fd029517e9d272d42674a538b
